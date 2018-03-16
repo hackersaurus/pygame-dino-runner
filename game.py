@@ -8,7 +8,7 @@ DELAY_MS = 10
 
 class GameObject:
     
-    def __init__(self, position=(0, 0), size=(50, 50), color=(0, 0, 0)):
+    def __init__(self, position=(0, 0), size=(30, 30), color=(0, 0, 0)):
         self._x_pos, self._y_pos = position
         self._width, self._height = size
         self._color = color
@@ -24,7 +24,7 @@ if __name__ == '__main__':
     pygame.display.set_caption(GAME_TITLE)
     window = pygame.display.set_mode((MAX_WIDTH, MAX_HEIGHT))
     
-    player = GameObject(color=(255, 0, 0))
+    player = GameObject(color=(0, 0, 255))
     
     vel = 5
     
