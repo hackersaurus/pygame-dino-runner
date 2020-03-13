@@ -24,7 +24,7 @@ if __name__ == '__main__':
     pygame.display.set_caption(GAME_TITLE)
     window = pygame.display.set_mode((MAX_WIDTH, MAX_HEIGHT))
     
-    player = GameObject(color=(0, 130, 130))
+    player = GameObject(color=(255, 0, 0))
     
     vel = 5
     
